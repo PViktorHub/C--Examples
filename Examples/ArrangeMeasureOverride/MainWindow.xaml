@@ -18,16 +18,25 @@
                 <Setter Property="IsReadOnly" Value="True"/>
             </Style>
         </Grid.Resources>
-        <local:WrapPanelInverted IsInverted="True" Orientation="Horizontal">
-            <local:WrapPanelInverted.Children>
-                <TextBox Text="Control 1"/>
-                <TextBox Text="Control 2"/>
-                <TextBox Text="Control 3"/>
-                <TextBox Text="Control 4"/>
-                <TextBox Text="Control 5"/>
-                <TextBox Text="Control 6"/>
-                <TextBox Text="Control 7"/>
-            </local:WrapPanelInverted.Children>
-        </local:WrapPanelInverted>
+        <StackPanel Orientation="Vertical" Background="AntiqueWhite" CanHorizontallyScroll="True" CanVerticallyScroll="True">
+            <local:WrapPanelInverted IsInverted="True" Orientation="Horizontal" Background="Beige">
+                <local:WrapPanelInverted.Children>
+                    <TextBox Text="Control 1"/>
+                    <TextBox Text="Control 2"/>
+                    <TextBox Text="Control 3"/>
+                    <TextBox Text="Control 4"/>
+                    <TextBox Text="Control 5"/>
+                    <TextBox Text="Control 6"/>
+                    <TextBox Text="Control 7"/>
+                    <TextBox Text="Control 8"/>
+                    <TextBox Text="Control 9"/>
+                    <TextBox Text="Control 10"/>
+                    <TextBox Text="Control 11"/>
+                    <TextBox Text="Control 12"/>
+                    <TextBox Text="Control 13"/>
+                    <TextBox Text="Control 14"/>
+                </local:WrapPanelInverted.Children>
+            </local:WrapPanelInverted>
+        </StackPanel>
     </Grid>
 </Window>
